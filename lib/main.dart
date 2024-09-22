@@ -1,5 +1,6 @@
 //amr khaled
 import 'package:device_preview/device_preview.dart';
+import 'package:final_project/pages/home.dart';
 import 'package:final_project/pages/onboarding.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home:Onboarding()
+      home:Home()
     );
   }
 }
