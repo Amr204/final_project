@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
- 
-  runApp(
-    DevicePreview(
-      builder: (context)=> 
-       const MyApp()
-    )
-       );
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -19,7 +13,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-    
         //
         // TRY THIS: Try running your application with "flutter run". You'll see
         // the application has a purple toolbar. Then, without quitting the app,
